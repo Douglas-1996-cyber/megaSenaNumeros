@@ -81,7 +81,7 @@
    }
    .numeros{
     position: absolute;
-    left: 30%;
+    left: 0%;
    }
    .botao{
     background-color: aqua;
@@ -120,8 +120,11 @@
     .botao{
       left:25%;
     }
+    .numeros{
+      left: 30%;
+    }
    }
-   @media (orientation:landscape){
+   @media (max-height: 360px) and (orientation:landscape){
     .numeros li{
       display: inline;
       width: 2px;
